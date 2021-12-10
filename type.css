@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: white;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center; 
+    color: white; 
+}
+
+.texture .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }

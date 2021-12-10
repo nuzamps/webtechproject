@@ -1,0 +1,114 @@
+.body{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("img/background2.png") center/cover no-repeat;
+    background-position: center; 
+    min-height: 100vh;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+
+}
+.background{
+    background-color: transparent;
+    opacity: 1.0;
+    width: 430px;
+    height: 520px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+form{
+    height: auto;
+    width: 430px;
+    background-color:transparent;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 50px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+form h4{
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+    width: 160px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.center{
+    text-align: center;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 25px;
+    padding: 0 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 20px 0;
+    padding-right: 0px ;
+
+}
+
+
+button{
+    margin-top: 50px;
+    width: 70%;
+    background-color: #fff;
+    color: #2a2a2c;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+#signin{
+    margin-bottom: 0px;
+   margin-left: 70px;
+
+}
+
+#signup{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+#reset{
+    margin-bottom: 20px;
+    margin-left: 50px; 
+   
+}
